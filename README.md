@@ -22,6 +22,3 @@ Bu proje, aşağıdaki bileşenler ve dosyalar ile oluşturulmuştur:
 1. Projeyi çalıştırmadan önce gerekli bağımlılıkları kurun.
 2. İlgili dosyaları düzenleyerek veya kullanarak projeyi özelleştirebilirsiniz.
 
-## Lisans
-
-Bu proje [LİSANS ADI] altında lisanslanmıştır.
