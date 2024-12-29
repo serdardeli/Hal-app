@@ -1,4 +1,0 @@
-class HalBaseResponseModel{
-  String? islemKodu;
-   
-}
