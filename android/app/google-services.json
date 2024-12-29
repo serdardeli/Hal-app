@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "657096510394",
+    "project_id": "pc-api-6045211014556800621-787",
+    "storage_bucket": "pc-api-6045211014556800621-787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657096510394:android:017f59a43ea702693deb83",
+        "android_client_info": {
+          "package_name": "com.acar.hal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657096510394-j3mpnd64fhga3gdnrp9ltj7tfh91a8h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acar.hal.app",
+            "certificate_hash": "a73c2e2a4102ced53e42a24d4bb0e26c5d08a0d5"
+          }
+        },
+        {
+          "client_id": "657096510394-og3a6h16mkpq5q20uqhh0ifgvr21u1ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acar.hal.app",
+            "certificate_hash": "dbc17bc6e3b5db4a7b6fa21aa7532fde4f75ec16"
+          }
+        },
+        {
+          "client_id": "657096510394-rc53jpm02dks38e0uaqhns39kbpm0iim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acar.hal.app",
+            "certificate_hash": "d712c2e8f7011caa62234b992a58030026a53f35"
+          }
+        },
+        {
+          "client_id": "657096510394-nl25qs6epv99beik8jle8ip61tuoek44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBghymTvuz7nSSNovPAwjeKF1W73Q6oXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657096510394-nl25qs6epv99beik8jle8ip61tuoek44.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "657096510394-6b2ru121dmdkm4sg8vd1kv09oe9u47gm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.acar.hal.halApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
