@@ -1,0 +1,104 @@
+'''
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <BaseResponseMessageOf_ListOf_BildirimKayitCevap xmlns="http://www.gtb.gov.tr//WebServices">
+            <HataKodlari xmlns:a="http://schemas.datacontract.org/2004/07/GTB.HKS.Core.ServiceContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:ErrorModel>
+                    <a:HataKodu>1</a:HataKodu>
+                    <a:Mesaj>GTBWSRV0000002</a:Mesaj>
+                </a:ErrorModel>
+            </HataKodlari>
+            <IslemKodu>GTBWSRV0000001</IslemKodu>
+            <Sonuc xmlns:a="http://schemas.datacontract.org/2004/07/GTB.HKS.Bildirim.ServiceContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:BildirimKayitCevap>
+                    <a:AracPlakaNo>67DU768</a:AracPlakaNo>
+                    <a:BelgeNo>0</a:BelgeNo>
+                    <a:BelgeTipi>207</a:BelgeTipi>
+                    <a:HataKodu>0</a:HataKodu>
+                    <a:KayitTarihi>2022-08-04T18:01:09.2721403+03:00</a:KayitTarihi>
+                    <a:MalinCinsiId>1859</a:MalinCinsiId>
+                    <a:MalinKodNo>438</a:MalinKodNo>
+                    <a:MalinMiktari>3000</a:MalinMiktari>
+                    <a:MalinSahibAdi>EYLÜL14 TARIM TİCARET LİMİTED ŞİRKETİ </a:MalinSahibAdi>
+                    <a:Mesaj i:nil="true"/>
+                    <a:MiktarBirimId>74</a:MiktarBirimId>
+                    <a:RusumMiktari>0</a:RusumMiktari>
+                    <a:UniqueId>asdfasgaADRGRGQEHWEQrsynsrynszryjnsryjnrsyyTHasdasWRTHWRTHWTRadsfasadasdf</a:UniqueId>
+                    <a:UreticisininAdUnvani>MUSTAFA KEÇECİ</a:UreticisininAdUnvani>
+                    <a:UretimBeldeId>2448</a:UretimBeldeId>
+                    <a:UretimIlId>19</a:UretimIlId>
+                    <a:UretimIlceId>517</a:UretimIlceId>
+                    <a:UretimSekli>28</a:UretimSekli>
+                    <a:YeniKunyeNo>1194389220015932461</a:YeniKunyeNo>
+                </a:BildirimKayitCevap>
+            </Sonuc>
+        </BaseResponseMessageOf_ListOf_BildirimKayitCevap>
+    </s:Body>
+</s:Envelope>
+'''
+
+{"sdg":"dfgadfg"}
+------
+
+  var a = '''
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <BaseResponseMessageOf_ListOf_BildirimKayitCevap xmlns="http://www.gtb.gov.tr//WebServices">
+            <HataKodlari xmlns:a="http://schemas.datacontract.org/2004/07/GTB.HKS.Core.ServiceContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:ErrorModel>
+                    <a:HataKodu>1</a:HataKodu>
+                    <a:Mesaj>GTBWSRV0000001</a:Mesaj>
+                </a:ErrorModel>
+            </HataKodlari>
+            <IslemKodu>GTBWSRV0000001</IslemKodu>
+            <Sonuc xmlns:a="http://schemas.datacontract.org/2004/07/GTB.HKS.Bildirim.ServiceContract" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:BildirimKayitCevap>
+                    <a:AracPlakaNo>67DU768</a:AracPlakaNo>
+                    <a:BelgeNo>0</a:BelgeNo>
+                    <a:BelgeTipi>207</a:BelgeTipi>
+                    <a:HataKodu>0</a:HataKodu>
+                    <a:KayitTarihi>2022-08-04T18:01:09.2721403+03:00</a:KayitTarihi>
+                    <a:MalinCinsiId>1859</a:MalinCinsiId>
+                    <a:MalinKodNo>438</a:MalinKodNo>
+                    <a:MalinMiktari>3000</a:MalinMiktari>
+                    <a:MalinSahibAdi>EYLÜL14 TARIM TİCARET LİMİTED ŞİRKETİ </a:MalinSahibAdi>
+                    <a:Mesaj>hata bilmem ne </a:Mesaj>
+                    <a:MiktarBirimId>74</a:MiktarBirimId>
+                    <a:RusumMiktari>0</a:RusumMiktari>
+                    <a:UniqueId>asdfasgaADRGRGQEHWEQrsynsrynszryjnsryjnrsyyTHasdasWRTHWRTHWTRadsfasadasdf</a:UniqueId>
+                    <a:UreticisininAdUnvani>MUSTAFA KEÇECİ</a:UreticisininAdUnvani>
+                    <a:UretimBeldeId>2448</a:UretimBeldeId>
+                    <a:UretimIlId>19</a:UretimIlId>
+                    <a:UretimIlceId>517</a:UretimIlceId>
+                    <a:UretimSekli>28</a:UretimSekli>
+                    <a:YeniKunyeNo>1194389220015932461</a:YeniKunyeNo>
+                </a:BildirimKayitCevap>
+                 <a:BildirimKayitCevap>
+                    <a:AracPlakaNo>67DU768</a:AracPlakaNo>
+                    <a:BelgeNo>0</a:BelgeNo>
+                    <a:BelgeTipi>207</a:BelgeTipi>
+                    <a:HataKodu>0</a:HataKodu>
+                    <a:KayitTarihi>2022-08-04T18:01:09.2721403+03:00</a:KayitTarihi>
+                    <a:MalinCinsiId>1859</a:MalinCinsiId>
+                    <a:MalinKodNo>438</a:MalinKodNo>
+                    <a:MalinMiktari>3000</a:MalinMiktari>
+                    <a:MalinSahibAdi>EYLÜL14 TARIM TİCARET LİMİTED ŞİRKETİ </a:MalinSahibAdi>
+                    <a:Mesaj>hata bilmem ne </a:Mesaj>
+                    <a:MiktarBirimId>74</a:MiktarBirimId>
+                    <a:RusumMiktari>0</a:RusumMiktari>
+                    <a:UniqueId>asdfasgaADRGRGQEHWEQrsynsrynszryjnsryjnrsyyTHasdasWRTHWRTHWTRadsfasadasdf</a:UniqueId>
+                    <a:UreticisininAdUnvani>MUSTAFA KEÇECİ</a:UreticisininAdUnvani>
+                    <a:UretimBeldeId>2448</a:UretimBeldeId>
+                    <a:UretimIlId>19</a:UretimIlId>
+                    <a:UretimIlceId>517</a:UretimIlceId>
+                    <a:UretimSekli>28</a:UretimSekli>
+                    <a:YeniKunyeNo>1194389220015932461</a:YeniKunyeNo>
+                </a:BildirimKayitCevap>
+            </Sonuc>
+        </BaseResponseMessageOf_ListOf_BildirimKayitCevap>
+    </s:Body>
+</s:Envelope>
+''';
+                  var document2 = XmlDocument.parse(a);
+
+                  var b = BildirimKayitResponseModel.fromXmlElement(document2);
