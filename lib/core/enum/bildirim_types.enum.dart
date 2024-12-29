@@ -1,0 +1,1 @@
+enum BildirimTypes { satinalim, sevketme }
